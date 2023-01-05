@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: whitesmoke;
+	top: 0px;
+	left: 0px;
+}
+
+.header {
+	height: 127px;
+}
+
+.header_logo {
+	top: 31px;
+	left: 200px;
+	width: 300px;
+	height: 85px;
+}
+
+#background-video {
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
