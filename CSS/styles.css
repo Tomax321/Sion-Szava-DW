@@ -3,8 +3,19 @@
 
 body {
 	background-color: whitesmoke;
+	text-align: center;
 	top: 0px;
 	left: 0px;
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	color: #F17511;
+	margin-bottom: 1rem;
+}
+
+p {
+	
 }
 
 .header {
@@ -18,12 +29,21 @@ body {
 	height: 85px;
 }
 
+.container-fluid {
+	padding: 3% 15%;
+}
+
+.content-txt {
+	text-align: left;
+	padding: 2% 7% 5% 2%;
+}
+
+img.kar-logo {
+	position: relative;
+	max-height: 194px;
+}
+
 #background-video {
   object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+  overflow: visible;
 }
